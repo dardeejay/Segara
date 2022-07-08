@@ -9,4 +9,5 @@ var swiper = new Swiper(".mySwiper", {
     autoplay: {
         delay: 3300,
     },
+    speed: 1000
 });
