@@ -7,7 +7,12 @@ var swiper = new Swiper(".mySwiper", {
         clickable: true,
     },
     autoplay: {
-        delay: 3300,
+        delay: 3000,
+        disableOnInteraction: false,
     },
-    speed: 1000
+    speed: 1000,
+    navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
 });
