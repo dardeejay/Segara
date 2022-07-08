@@ -1,6 +1,6 @@
 // Swiper Slider
 var swiper = new Swiper(".mySwiper", {
-    direction: "vertical",
+    direction: "horizontal",
     loop: true,
     pagination: {
         el: ".swiper-pagination",
